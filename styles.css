@@ -40,7 +40,7 @@ h1 {
 
 h2 {
     color: #efefef;
-    font-size: 3.75em;
+    font-size: 3em;
     margin: 0em;
 }
 
@@ -77,10 +77,14 @@ hr {
 
 .headcont {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    margin: 0em auto;
-    width: 100vw;
+    margin: 0em;
+    width: 100%;
+}
+
+.logo {
+    padding: 0em 2em;
 }
 
 .nav {
@@ -105,9 +109,10 @@ hr {
 }
 
 .nav_btn:hover {
-    color: #efefef;
-    border: 4px #00514f solid;
-    background-color: #00514f;
+    color: #00514f;
+    transform: scale(110%);
+    /* border: 4px #00514f solid;
+    background-color: #00514f; */
 }
 
 .hamburger {
@@ -177,8 +182,12 @@ hr {
     font-size: 0.9em;
 }
 
-.fit h1 {
-    margin: 0em 2em;
+.margin {
+    position: relative;
+    display: block;
+    text-align: right;
+    margin: 0em auto;
+
 }
 
 .show {
@@ -281,7 +290,7 @@ hr {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 0.9em;
+    font-size: 1.2em;
     color: #636363;
     list-style: none;
     padding: 0;
