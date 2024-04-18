@@ -136,7 +136,7 @@ hr {
 /* Blog */
 
 .hero {
-    min-height: 300px;
+    min-height: 50vh;
     width: 100vw;
 }
 
@@ -160,19 +160,22 @@ hr {
 
 .flex-thumb{
     display: flex;
-    border: 3px solid #00514f;
     margin: 1em;
     max-height: 20em;
 }
 
-.flex-col{
+.flex-col {
     display: flex;
     flex-direction: column;
     text-align:start;
-    margin-left: 2em;
+    margin-left: 1em;
     margin-right: 2em;
+    overflow: hidden;
 }
 
+.flex-col {
+    font-size: 0.9em;
+}
 
 .show {
     background-image: url(assets/backgrounds/bg_home.png);
@@ -510,6 +513,14 @@ hr {
     padding: 1em;
 }
 
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: left;
+    margin: 1em;
+}
 
 .container {
     display: flex;
