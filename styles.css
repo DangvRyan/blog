@@ -177,6 +177,10 @@ hr {
     font-size: 0.9em;
 }
 
+.fit h1 {
+    margin: 0em 2em;
+}
+
 .show {
     background-image: url(assets/backgrounds/bg_home.png);
 }
