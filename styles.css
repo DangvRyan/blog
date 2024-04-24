@@ -38,6 +38,8 @@ h1 {
     white-space: nowrap;
 }
 
+
+
 h2 {
     color: #efefef;
     font-size: 3em;
@@ -46,6 +48,15 @@ h2 {
 
 h3 {
     font-size: 1.8em; 
+}
+
+h4 {
+    color:black;
+    font-size: 4em;
+}
+
+h5 {
+    font-size: 1.8em;
 }
 
 p {
@@ -125,7 +136,7 @@ hr {
     display: flex;
 }
 
-.show, .about, .contact, .port, .spec {
+.show, .about, .contact, .port, .spec, .blog {
     display: flex;
     align-items: center;
     min-height: calc(100vh - 200px);
@@ -145,7 +156,7 @@ hr {
     width: 100vw;
 }
 
-.blog {
+.bloghome {
     display: grid;
     grid-template-columns: 1fr 1fr;
     justify-content: center;
@@ -159,8 +170,30 @@ hr {
     margin: 0;
 }
 
+.bloghome p {
+    color: black;
+}
+
+.blog {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 0;
+    padding: 0;
+}
+
 .blog p {
     color: black;
+}
+
+.blog a img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+.divider {
+    border-right: 5px solid black;
+    margin: 0em 10em 0em 0em
 }
 
 .flex-thumb{
@@ -527,12 +560,18 @@ hr {
 }
 
 
-.blog {
+.bloghome {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
     text-align: left;
     margin: 1em;
+}
+
+.divider {
+    border-right: none;
+    border-bottom: 5px solid #efefef;
+    margin-bottom: 2em;
 }
 
 .container {
