@@ -109,9 +109,10 @@ hr {
 }
 
 .nav_btn:hover {
-    color: #efefef;
-    border: 4px #00514f solid;
-    background-color: #00514f;
+    color: #00514f;
+    transform: scale(110%);
+    /* border: 4px #00514f solid;
+    background-color: #00514f; */
 }
 
 .hamburger {
