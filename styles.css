@@ -199,6 +199,10 @@ hr {
     padding: 0em 0.5em;
 }
 
+.blogbig {
+    max-width: 50em;
+}
+
 .contentthumb {
     height: auto;
     width: 200px;
