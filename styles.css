@@ -29,6 +29,8 @@ a {
     text-decoration: none;
 }
 
+/* Word Formatting */
+
 h1 {
     color: #efefef;
     font-size: 4.5em;
@@ -77,6 +79,8 @@ hr {
     display: inline-block;
     margin: 1em 0em;
 }
+
+/* Header/Navbar */
 
 .header {    
     display: flex;
@@ -137,6 +141,8 @@ hr {
     display: flex;
 }
 
+/* Basic Layout */
+
 .show, .about, .contact, .port, .spec, .blog {
     display: flex;
     align-items: center;
@@ -155,7 +161,7 @@ hr {
 .blog {
     display: grid;
     grid-template-columns: 350px 80%;
-    padding-right: 40em;
+    padding-right: 20em;
     margin: 0;
     padding-bottom: 5em;
 }
@@ -253,6 +259,8 @@ hr {
     margin: 2em 0em;
 }
 
+/* Background Images */
+
 .show {
     background-image: url(assets/backgrounds/bg_home.png);
 }
@@ -264,6 +272,19 @@ hr {
 .contact {
     background-image: url(assets/backgrounds/bg_contact.png);
 }
+
+#shell, #adobe, #irl {
+    width: 80%;
+    height: auto;
+    animation: slideinfrombot 0.5s ease;
+}
+
+#irl {
+    position: relative;
+    left: 5em;
+}
+
+/* Portfolio */
 
 .port {
     background-image: url(assets/backgrounds/bg_port.png);
@@ -280,18 +301,6 @@ hr {
 .portpics {
     width: 100%;
     height: auto;
-}
-
-#shell, #adobe, #irl {
-    width: 80%;
-    height: auto;
-    animation: slideinfrombot 0.5s ease;
-   
-}
-
-#irl {
-    position: relative;
-    left: 5em;
 }
 
 .gallery {
@@ -329,6 +338,8 @@ hr {
     opacity: 60%;
     transition: 0.2s;
 }
+
+/* Footer */
 
 .footer {
     min-height: 100px;
@@ -449,6 +460,10 @@ span {
 
 .span {
     grid-column: 1 / span 2;
+}
+
+#span2 {
+    grid-column: 2 / 3;
 }
 
 .wide {
