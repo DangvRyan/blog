@@ -154,12 +154,14 @@ hr {
 
 .blog {
     display: grid;
-    grid-template-columns: 350px 1fr;
-    padding-right: 30em;
+    grid-template-columns: 350px 80%;
+    padding-right: 40em;
+    margin: 0;
     padding-bottom: 5em;
 }
 
 .blog h1, h3 {
+    text-wrap: wrap;
     grid-column: 2 / 3;
     color: black;
 }
@@ -200,7 +202,7 @@ hr {
 }
 
 .blogbig {
-    max-width: 50em;
+    max-width: 100%;
 }
 
 .contentthumb {
@@ -220,6 +222,7 @@ hr {
     margin: 5em 5em;
     justify-content: center;
     align-items: center;
+    top: 5em;
     z-index: 1;
 }
 
@@ -597,7 +600,11 @@ hr {
 }
 
 .sidebar {
-    display: none;
+    position: relative;
+    border-right: none;
+    margin: 0em auto 1em auto;
+    padding: 0em;
+    top: auto;
 }
 
 .blog {
