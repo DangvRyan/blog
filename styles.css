@@ -315,6 +315,7 @@ a .blogthumb:hover, a .contentthumb:hover {
     grid-column: 2;
     grid-gap: 2em;
     max-width: 95vw;
+    margin: 2em 0em;
 }
 
 .desc {
