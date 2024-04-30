@@ -185,6 +185,7 @@ hr {
 
 .blog .flex{
     grid-column: 2 / 3;
+    margin-top: 1em;
 }
 
 .hero {
@@ -454,7 +455,6 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 1em 0em;
 }
 
 
